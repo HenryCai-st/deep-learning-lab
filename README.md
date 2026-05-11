@@ -1,5 +1,14 @@
 # Deep Learning Project
 
+## Branch description
+
+This branch uses [lorenz system](https://en.wikipedia.org/wiki/Lorenz_system) for simulating the SDE. A template script can be found in subfolder `scripts` to generate and plot.
+Planned steps:
+
+1. **Production-ready script**
+
+We need a script ready to set different 6 parameters (sigma, rho, beta, 3 noise coefficients) and generate given amount of SDEs of each set, then output to given folder, which each set is in a subfolder, where it stores both trajectories as numpy arrays and images for each one instance of SDE along with the parameters generating them stored as txt or json.
+
 ## Project description
 
 We are to achieve "trajectories to parameters", the inverse design of simulating differential equation using parameters based on "Learning Stochastic Differential Equations that Explain Football".
